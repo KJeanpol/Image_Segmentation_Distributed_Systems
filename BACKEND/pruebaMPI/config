@@ -1,0 +1,8 @@
+20.85.210.83 slots= 1
+40.117.135.75 slots= 1
+20.85.212.237 slots= 1
+13.90.151.202 slots= 1
+
+
+sudo apt-get install openmpi-bin openmpi-common openssh-client openssh-server libopenmpi1.3
+libopenmpi-dbg libopenmpi-dev

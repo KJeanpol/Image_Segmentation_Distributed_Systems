@@ -13,9 +13,8 @@ def main(nombre,algoritmo,n1,n2,n3,n4):
     data = foto.getdata()
     foto.close()
     
-    os.system("nasm -f elf64 conv.asm -o conv.o")
-    os.system("ld conv.o -o conv")
-    os.system("./conv "+str(rows)+" "+str(cols))
+    os.system("mpiexec -n 1 -hostfile config ./prueba osito")
+
 
 
 
